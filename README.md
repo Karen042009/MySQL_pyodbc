@@ -21,3 +21,6 @@ conn = pyodbc.connect(
 )
 ```
 ## Run python file
+```
+python main.py
+```
