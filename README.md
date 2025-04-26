@@ -8,6 +8,8 @@ Enter password: your_password
 CREATE DATABAS name;
 exit
 ```
+## We exchange data with you.
+```
 conn = pyodbc.connect(
     "DRIVER={...};"
     "SERVER=...;"
