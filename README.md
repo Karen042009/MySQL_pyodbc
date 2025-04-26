@@ -8,7 +8,11 @@ Enter password: your_password
 CREATE DATABAS name;
 exit
 ```
-…    "DATABASE=...;"
+conn = pyodbc.connect(
+    "DRIVER={...};"
+    "SERVER=...;"
+    "PORT=...;"
+    "DATABASE=...;"
     "USER=...;"
     "PASSWORD=...;"
     "charset=utf8mb4;"
